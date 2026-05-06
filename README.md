@@ -51,3 +51,13 @@ Windows Forms App
 Groq API
    ↓
 Translation Result
+How to Run the Project
+Clone or download the project.
+Open the project in Visual Studio.
+Create a Groq API key from Groq Console.
+Open Form1.cs.
+Find this line:
+string apiKey = "PUT_YOUR_GROQ_API_KEY_HERE";
+Replace it with your own Groq API key:
+string apiKey = "your_api_key_here";
+Run the application.
